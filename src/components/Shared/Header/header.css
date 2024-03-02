@@ -1,0 +1,15 @@
+.sticky {
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	left: 0;
+	border-bottom: 1px solid #cdd3e3;
+}
+
+.active {
+	background: #f79420;
+	border-radius: 5px;
+	color: #fff;
+}
