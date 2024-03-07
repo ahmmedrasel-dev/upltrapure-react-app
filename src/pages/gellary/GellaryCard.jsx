@@ -3,7 +3,7 @@ import { getImgUrl } from "../../utils/utility";
 
 const GellaryCard = ({ product }) => {
   return (
-    <figure className="p-4 border-2 border-black/10 shadow-sm dark:border-white/10 rounded-xl text-center">
+    <figure className="p-4 border-2 border-black/10 shadow-sm dark:border-white/10 rounded-xl text-center flex flex-col items-center">
       <img
         className="w-[250px] h-[250px] border-4 border-blue-500 rounded-full mb-4"
         src={getImgUrl(product.thumbnail)}

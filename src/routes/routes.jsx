@@ -5,6 +5,7 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import GellaryPage from "../pages/gellary/GellaryPage";
 import About from "../pages/About/About";
+import ContactForm from "../pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -24,8 +25,8 @@ const router = createBrowserRouter([
         element: <Register />,
       },
       {
-        path: "/about",
-        element: <About />,
+        path: "/contact",
+        element: <ContactForm />,
       },
       {
         path: "/gellary",

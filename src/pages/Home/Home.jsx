@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Slide></Slide>
-      <SectionTitle title="Our All Products" />
+      <SectionTitle title="Our Supply Items" />
       <GellaryPage />
       <Feature></Feature>
       <SupplyItems></SupplyItems>
